@@ -7,6 +7,7 @@ A pocketmine plugin to tie servers together. (Like RubberBand, but for the NEW A
 3. Restrat your server with `./start.sh`
 4. Configure the proxy, with a lobby, and some other servers you may want to add
 5. Type `/server <IP> <PORT>` to join IP with the port PORT or `/join <SERVERNAME:LOBBY>` to teleport to SERVERNAME or LOBBY.
+
 ## Configuration
 To add a server type `/rs <SERVERNAME> <IP> <PORT> <ROLLBACK IP> [ROLLBACK PORT]`
 To add a lobby `/al <IP>`
