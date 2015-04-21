@@ -56,7 +56,9 @@ Knot: default: OP
 ```
 
 ## FAQ
-#### The client can't join
+#### The client can't join my server
+This is because you need to [port-forward](http://forums.pocketmine.net/threads/port-forwarding-guide.1294/).
+#### The client can't join another server
 This is because one of the following reasons:
 
 1. You used and external IP for an internal server
