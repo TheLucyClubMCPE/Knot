@@ -22,7 +22,6 @@ __KEY:__
 * ROLLBACK IP - The IP to connect to if the desired server is offline (Default is lobby)
 * ROLLBACK PORT - Port to rollback to (Only set if lobby port is not 19132)
 
-
 ### Example Configuration
 ```
 /rs survival 192.168.0.77 16778 127.0.0.1 19132
@@ -35,12 +34,32 @@ External proxy enabled
 Proxy directory set to "proxyconnector"
 ```
 
+## Permissions
+```
+Knot: default: OP
+  commands:
+    server default: OP
+    join default: true
+    proxy: default: OP
+    al: default: OP
+    rs default: OP
+  events:
+    proxy.proxyTransfer: default: true
+    proxy.joinLobby: default: true
+    server.join: default: true
+```
+
 ## FAQ
-#### It won't work
+#### The client can't join
 This is because one of the following reasons:
+
 1. You used and external IP for an internal server
+ 
 2. The server port is blocked in the firewall
+
 3. Your servers.yml file is messed up
+
+4. The plugin is not setup on the other server
 
 #### The client gets kicked
 This is most likely because you did not set a rollback server.
