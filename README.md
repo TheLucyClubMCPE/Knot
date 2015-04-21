@@ -67,3 +67,6 @@ Re-register the server this time, with a rollback IP and PORT.
 
 #### It says "API Version Not Compatible"
 That just means your not on the latest version of PocketMine. You need [PocketMine-MP 1.5](https://github.com/PocketMine/PocketMine-MP/releases)
+
+## How the plugin works
+Knot is a plugin that takes the clients existing connection, and forwards it to a different server. Now, how does this happen? It's pretty simple actualy. First, the clients connection is redirected to a deprecated RakNet server for only one thousandth of a second. Then, the clients connection gets forwarded to the same IP, but ends up at a different port. While this is happening, the clients "tunnel gateway" gets thrown with millions of hacker attacks. To prevents these from doing any dammage to the client, the tunnel is encripted so that if it is thrown with hacker attacks, the attack will be sent back to the hacker's computer, and spam the "hack log" with 'GET A LIFE DUDE!' until the computer dies.
