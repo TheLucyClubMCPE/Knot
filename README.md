@@ -47,4 +47,4 @@ This is most likely because you did not set a rollback server.
 Re-register the server this time, with a rollback IP and PORT.
 
 #### It says "API Version Not Compatible"
-That just means your not on the latest version of PocketMine. [You need PocketMine-MP 1.5](https://github.com/PocketMine/PocketMine-MP/releases)
+That just means your not on the latest version of PocketMine. You need [PocketMine-MP 1.5](https://github.com/PocketMine/PocketMine-MP/releases)
