@@ -9,11 +9,17 @@ A pocketmine plugin to tie servers together. (Like RubberBand, but for the NEW A
 5. Type `/server <IP> <PORT>` to join IP with the port PORT or `/join <SERVERNAME:LOBBY>` to teleport to SERVERNAME or LOBBY.
 
 ## Configuration
+
 To add a server type `/rs <SERVERNAME> <IP> <PORT> <ROLLBACK IP> [ROLLBACK PORT]`
+
 To add a lobby `/al <IP>`
+
 To start the proxy, type `/proxy --enable`
+
 To connect the proxy type `/proxy --connect <database> <user> <password> <host>` OR `/proxy --add <DIRECTORY>`
+
 _NOTE: When setting a lobby server, use its dynamic internal ip (unless it's external of course) and NOT to 127.0.0.1 because this will send the client to itself, which will crash their game._
+
 __KEY:__
 
 * SERVERNAME - The server servers.yml name
