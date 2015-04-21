@@ -19,6 +19,8 @@ IP - The IP the client data packet will be sent to
 PORT - The port the client will  be directed to
 ROLLBACK IP - The IP to connect to if the desired server is offline (Default is lobby)
 ROLLBACK PORT - Port to rollback to (Only set if lobby port is not 19132)
+
+
 ### Example Configuration
 ```
 /rs survival 192.168.0.77 16778 127.0.0.1 19132
