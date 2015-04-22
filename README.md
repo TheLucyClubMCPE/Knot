@@ -1,6 +1,8 @@
 [![](http://achievecraft.com/cimage/i92/Knot/A+PocketMine+PlugIn/mca.png)](https://github.com/thelucyclubmcpe/knot/releases)
 # Knot
 A pocketmine plugin to tie servers together. (Like RubberBand, but for the NEW API.)
+## Screenshots
+![](https://forums.pocketmine.net/attachments/screenshot-4-png.6078/)
 ## Usage
 1. Drop the file into your /plugins directory
 2. Execute `/stop` in the console
